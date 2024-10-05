@@ -13,18 +13,18 @@ composer require rukamuel/certlookup
 #### From GitHub (with stability options):
 To use a stable version:
 ```bash
-composer require rukamuel/certlookup:stable
+composer require rukamuel/certlookup:dev-stable
 ```
 For the main branch (the latest changes):
 ```bash
-composer require rukamuel/certlookup:main
+composer require rukamuel/certlookup:dev-main
 ```
 Add this to your composer.json if you prefer:
 ```json
 {
     "require": {
-        "rukamuel/certlookup": "stable"  
-        // or "main" for the latest development version
+        "rukamuel/certlookup": "dev-stable"  
+        // or "dev-main" for the latest development version
     }
 }
 ```
@@ -81,8 +81,8 @@ phpunit --configuration phpunit.xml
 ```
 
 ## Branches
-- ```stable```: For users who need stability and want a more tested and verified version of the library.
-- ```main```: For users who want the latest updates and can tolerate potential changes in development.
+- ```dev-stable```: For users who need stability and want a more tested and verified version of the library.
+- ```dev-main```: For users who want the latest updates and can tolerate potential changes in development.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
