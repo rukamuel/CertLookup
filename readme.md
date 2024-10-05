@@ -1,5 +1,7 @@
 X.509 certificates lookup library.
 
+[![Test Status](https://github.com/rukamuel/CertLookup/actions/workflows/phpunit.yml/badge.svg)](https://github.com/rukamuel/CertLookup/actions/workflows/phpunit.yml)
+
 **CertLookup** is a PHP library for retrieving and parsing SSL/TLS certificates for a given domain. It provides an easy-to-use API to extract important information about the certificate.
 
 ## Installation
